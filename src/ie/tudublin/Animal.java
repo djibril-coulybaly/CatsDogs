@@ -25,6 +25,10 @@ public class Animal {
     }
 
     public void speak() {
-        System.out.println("I can't speak!")
+        System.out.println("I can't speak!");
+    }
+
+    public String toString() {
+        return getName();
     }
 }
